@@ -7,7 +7,6 @@ function getData(dataId){
 })};
 
 //async-await
-
 async function getAlldata() {
     console.log ('fetching data 1 ...');
     await getData(1);
@@ -18,8 +17,6 @@ async function getAlldata() {
     console.log ('fetching data 3 ...');
     await getData(3);
 }
-
-
 
 //Promise chain
 
